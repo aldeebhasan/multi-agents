@@ -3,6 +3,13 @@
     "description": "This package will help you to handle multi device operations",
     "type": "library",
     "version": "1.0.0",
+    "license": "MIT",
+    "keywords": [
+        "agents",
+        "multi-agents",
+        "multi-devices",
+        "laravel"
+    ],
     "autoload": {
         "psr-4": {
             "Aldeebhasan\\MultiAgents\\": "src/"
