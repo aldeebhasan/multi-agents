@@ -169,7 +169,7 @@ $device->getSettings();
 
 ## License
 
-Laravel Multi Agent package is licensed under [The MIT License (MIT)](LICENSE).
+Laravel Multi Agent package is licensed under [The MIT License (MIT)](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
 
 ## Security contact information
 
