@@ -1,0 +1,32 @@
+{
+    "name": "aldeebhasan/multi-agents",
+    "description": "This package will help you to handle multi device operations",
+    "type": "library",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "Aldeebhasan\\MultiAgents\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helpers.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Hasan Deeb",
+            "email": "aldeeb.91@gmail.com"
+        }
+    ],
+    "require": {
+        "jenssegers/agent": "^v2.6.4"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aldeebhasan\\MultiAgents\\MultiAgentsServiceProvider"
+            ],
+            "aliases": {
+            }
+        }
+    }
+}
