@@ -12,6 +12,12 @@ Install using composer:
 ```bash
 composer require aldeebhasan/multi-agents
 ```
+After finishing the installation process you need to migrate the package tables to the database.
+run the following command
+```php
+php artisan migrate
+```
+
 
 Basic Usage
 -----------

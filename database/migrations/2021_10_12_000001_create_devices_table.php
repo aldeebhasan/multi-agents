@@ -20,7 +20,7 @@ class CreateDevicesTable extends Migration
             $table->string('agent');
             $table->nullableMorphs('ownerable');
             $table->timestamp('last_used_at')->useCurrent();
-            $table->timestamp('expired_at');
+            $table->timestamp('expired_at')->nullable();
             $table->timestamps();
         });
     }
