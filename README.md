@@ -10,7 +10,7 @@ Installation
 Install using composer:
 
 ```bash
-composer require aldeeb/multi-agents
+composer require aldeebhasan/multi-agents
 ```
 
 Basic Usage
