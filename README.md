@@ -37,7 +37,7 @@ $device = Device::register('uuid');
 Now, you can use the following functions to link/unlink the device with the `Client` model
 
 ```php
-use Aldeeb\MultiAgents\Models\Device
+use Aldeebhasan\MultiAgents\Models\Device
 
 $device = Device::register('uuid');
 $client = new Client();
@@ -88,7 +88,7 @@ This attribute should be sent at the `Header` or as `POST`or `GET` parameter wit
 
 To use the device authentication middleware, you need to add it first to the `app\Http\Kernel.php` under `$routeMiddleware` as follow:
 ```php
-'auth.device' => \Aldeeb\MultiAgents\Middleware\DeviceAuthenticated::class,
+'auth.device' => \Aldeebhasan\MultiAgents\Middleware\DeviceAuthenticated::class,
 ```
 Next, you have to attach the middleware to your rout or inside your controller.
 ```php
@@ -131,7 +131,7 @@ Each device could have a list of setting related to it.
 You can initialize a list of settings you want to link with a specific set of devices, and attach them to the devices.
 
 ```php
-use Aldeeb\MultiAgents\Models\Setting
+use Aldeebhasan\MultiAgents\Models\Setting
 
 $setting1 = Setting::register('key1');
 $setting2 = Setting::register('key2');
