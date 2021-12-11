@@ -2,7 +2,7 @@
     "name": "aldeebhasan/multi-agents",
     "description": "This package will help you to handle multi device operations",
     "type": "library",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "license": "MIT",
     "keywords": [
         "agents",
